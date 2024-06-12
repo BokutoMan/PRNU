@@ -85,7 +85,7 @@ def evaluate_prnu(prnu_database, test_images_with_camera):
                 correct += 1
                 camera_correct += 1
             total += 1
-            print()
+            # print()
         print(f"{camera} 识别准确率: {camera_correct/len(test_images)}")
     # 计算准确率
     accuracy = correct / total if total > 0 else 0
